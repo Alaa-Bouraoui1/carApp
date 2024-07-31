@@ -10,6 +10,8 @@ import FAQ from "./pages/FAQ";
 import Newsroom from "./pages/Newsroom";
 import Career from "./pages/Career";
 import B2B from "./pages/B2B";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
 
 const App = () => {
   return (
@@ -24,6 +26,8 @@ const App = () => {
         <Route path="/newsroom" element={<Newsroom />} />
         <Route path="/career" element={<Career />} />
         <Route path="/b2b" element={<B2B />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
   );
